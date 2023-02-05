@@ -34,7 +34,7 @@
 ## Archive
 - Not needed anymore, but for sake of completeness and nostalgia here.
 
-### OSCE (retired on 15/10/2020) - TODO
+### [OSCE](archive/osce) (retired on 15/10/2020) - TODO
 - [Course Info](https://www.offensive-security.com/ctp-osce/)
 
 # NOTE
