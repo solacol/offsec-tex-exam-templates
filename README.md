@@ -3,7 +3,7 @@ Just because `LaTeX` > `Word`/`LibreOffice` etc.
 
 Templates are more or less dirty, so not perfect and definitively not clean `tex` ... shame on me.
 
-## OSWP
+## [OSWP](oscp)
 - [Exam Guide](https://help.offensive-security.com/hc/en-us/articles/360046904731-OSWP-Exam-Guide)
 - [Original Template (Word)](https://www.offensive-security.com/wifu/OSWP-Exam-Report.docx)
 - [Original Template (LibreOffice)](https://www.offensive-security.com/wifu/OSWP-Exam-Report.odt)
