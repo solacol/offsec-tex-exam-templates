@@ -1,5 +1,5 @@
 # Offensive Security Tex Exam Templates 
-Just because LaTeX > word/libreoffice etc.
+Just because `LaTeX` > `Word`/`LibreOffice` etc.
 
 Templates are more or less dirty, so not perfect and definitively not clean `tex` ... shame on me.
 
