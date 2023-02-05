@@ -35,5 +35,6 @@ Templates are more or less dirty, so not perfect and definitively not clean `tex
 ## Archive
 
 # NOTE
-Use at your `own risk`! `No guarantees` if reports written by usage of the templates in this repo will fail to fulfill any requirements!
+- Use at your `own risk`!
+- `No guarantees` if reports written by usage of the templates in this repo will fail to fulfill any requirements!
 
