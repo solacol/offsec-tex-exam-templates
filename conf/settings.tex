@@ -1,0 +1,189 @@
+% !TeX spellcheck = en_US
+% !TeX root = ../ABCD-OS-XXXXX-Exam-Report.tex
+%
+%
+%
+% packages and settings
+%
+\usepackage[right=4.0cm,left=3.3cm, bottom=3.9cm, top=4.1cm, footskip=2.1cm, headsep=3.0cm]{geometry}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{palatino}
+\usepackage{microtype}
+\usepackage[english]{babel}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{listings}
+\usepackage{lastpage}
+\usepackage{float}
+\usepackage[bottom]{footmisc}
+\usepackage[htt]{hyphenat}
+\usepackage{float} 
+\usepackage{graphicx}
+\usepackage{csvsimple}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{lstautogobble}
+\usepackage{zi4}  
+\usepackage[rigidchapters]{titlesec}
+\usepackage{blindtext}
+\usepackage[labelfont=bf,format=hang,font=footnotesize,justification=raggedright,singlelinecheck=false]{caption}
+\usepackage{fancyhdr}
+\usepackage{todonotes}
+\usepackage{tabularx}
+\usepackage{etoolbox}
+%
+\usepackage{tikz}
+\usetikzlibrary{plotmarks}
+\usetikzlibrary{positioning,shapes,shadows,arrows}
+%
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+%
+\linespread{1.25}
+%\onehalfspacing
+%
+\titleformat{\chapter}
+{\normalfont\LARGE}
+{\makebox[3pc][l]{\LARGE\thechapter\hfil\rule[-6pt]{0.5pt}{2pc}}}
+{0pt}
+{\LARGE}
+\titlespacing*{\chapter}{0pt}{0pt}{82pt}
+%
+\setlength{\parindent}{0pt}
+%
+\hyphenation{}
+%
+% listings
+%
+\lstset{
+    autogobble,
+    columns=fullflexible,
+    showspaces=false,
+    showtabs=false,
+    breaklines=true,
+    showstringspaces=false,
+    breakatwhitespace=false,
+    commentstyle=\color{greencomments},
+    keywordstyle=\color{bluekeywords},
+    stringstyle=\color{redstrings},
+%    numberstyle=\color{graynumbers},
+    numberstyle=\footnotesize,
+%    basicstyle=\ttfamily\footnotesize,
+    basicstyle=\ttfamily,
+    numbers=left,
+    frame=lines,
+    framesep=12pt,
+    xleftmargin=12pt,
+    tabsize=4,
+    captionpos=b,
+    %    stepnumber=1,
+    %    numbersep=5pt,   
+    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
+%
+% header and footer
+%
+\pagestyle{fancy}
+\fancypagestyle{plain}{}
+\fancyhf{}
+\fancyfoot{}
+\fancyfoot[L]{\OSID}
+\fancyfoot[R]{\thepage/\pageref{LastPage}}
+\fancyhead[L]{}
+\fancyhead[R]{}
+\fancyhead[C]{\includegraphics[width=\textwidth]{img/default/head.png}}
+%
+% Setting up according to choosen EXAM
+%
+\ifnum \EXAM>0
+   \newcommand{\DOCUMENTTITLE}{Offensive Security}
+
+    % OSWP
+    \ifnum \EXAM=1
+        \newcommand{\DOCUMENTSUBTITLE}{OSWP Exam Documentation}
+        \newcommand{\VERSION}{v2.0}
+    \fi
+    % OSCP
+    \ifnum \EXAM=2
+        \newcommand{\DOCUMENTSUBTITLE}{OSCP Penetration Test Report}
+        \newcommand{\VERSION}{v2.0}
+    \fi
+    % OSWE
+    \ifnum \EXAM=3
+        \newcommand{\DOCUMENTSUBTITLE}{OSWE Exam Documentation}
+        \newcommand{\VERSION}{v1.0}
+    \fi
+    % OSED
+    \ifnum \EXAM=4
+        \newcommand{\DOCUMENTSUBTITLE}{...}
+        \newcommand{\VERSION}{...}
+    \fi
+    % OSEP
+    \ifnum \EXAM=5
+        \newcommand{\DOCUMENTSUBTITLE}{...}
+        \newcommand{\VERSION}{...}
+    \fi
+    % OSWA
+    \ifnum \EXAM=6
+        \newcommand{\DOCUMENTSUBTITLE}{...}
+        \newcommand{\VERSION}{...}
+    \fi
+    % OSDA
+    \ifnum \EXAM=7
+        \newcommand{\DOCUMENTSUBTITLE}{...}
+        \newcommand{\VERSION}{...}
+    \fi
+    % OSMR
+    \ifnum \EXAM=8
+        \newcommand{\DOCUMENTSUBTITLE}{...}
+        \newcommand{\VERSION}{...}
+    \fi
+    % OSEE
+    \ifnum \EXAM=42
+        \newcommand{\DOCUMENTSUBTITLE}{...}
+        \newcommand{\VERSION}{...}
+    \fi
+\else
+    \newcommand{\DOCUMENTTITLE}{SOMETHING STRANGE HAPPENED}
+    \newcommand{\DOCUMENTSUBTITLE}{SOMETHING STRANGE HAPPENED}
+    \newcommand{\VERSION}{SOMETHING STRANGE HAPPENED}
+\fi
+%
+% metadata
+%
+\pdfsuppressptexinfo=1
+\hypersetup{pdfproducer={\OSID},
+    pdfauthor={\MAIL},%
+    pdftitle={\DOCUMENTTITLE},%
+    pdfsubject={\DOCUMENTSUBTITLE},
+    pdfcreator={\NAME},
+    pdfborder = {0 0 0}
+}
+%
+%
+%
+\definecolor{bluekeywords}{rgb}{0.13,0.13,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{redstrings}{rgb}{0.9,0,0}
+\definecolor{graynumbers}{rgb}{0.5,0.5,0.5}
+\definecolor{osred}{HTML}{A90C1C}
+%
+% new
+%
+\newcommand{\sectionbreak}{\clearpage}
+%
+% renews
+%
+\renewcommand{\footrulewidth}{0.1pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+\renewcommand{\familydefault}{\sfdefault}

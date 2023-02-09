@@ -1,0 +1,152 @@
+% !TeX spellcheck = en_US
+%
+%
+%
+\documentclass[a4paper]{article}
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%   DEFINE DATA - START  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% DEFINE PERSONAL DATA
+%
+\newcommand{\OSID}{OS-XXXXX}
+\newcommand{\MAIL}{john.doe@example.org}
+\newcommand{\NAME}{John Doe}
+%
+% DEFINE EXAM DATA (choose number)
+%
+%   0       Default
+%   1       OSWP
+%   2       OSCP
+%   3       OSWE
+%   4       OSED
+%   5       OSEP
+%   6       OSWA
+%   7       OSDA
+%   8       OSMR
+%   42      OSEE
+%
+\newcommand{\EXAM}{2}
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%   DEFINE DATA - END  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+%
+% load packages, settings etc.
+%
+\input{conf/settings.tex}
+%
+% doc
+%
+\begin{document}
+%
+% title page
+%
+\begin{titlepage}
+%
+    \begin{center}
+        \vspace*{1cm}
+        {\fontsize{48}{48}\selectfont \DOCUMENTTITLE}\\
+        %
+        \vspace{0.5cm}
+        {\fontsize{28}{28}\selectfont \DOCUMENTSUBTITLE}\\
+        
+        \vspace{0.5cm}
+        \textcolor{osred}{\hrule height 2pt}
+        \vspace{0.8cm}
+        {\fontsize{12}{12}\selectfont \VERSION}\\
+        %
+        \vspace{0.8cm}
+        {\fontsize{16}{16}\selectfont \MAIL}\\
+        %
+        \vspace{0.8cm}
+        {\fontsize{20}{20}\selectfont OSID: \OSID}
+        %
+        \vspace{0.8cm}
+        \vfill
+        \includegraphics[width=0.7\textwidth]{img/default/mid.png}
+        \vfill
+        \vspace{0.8cm}
+        \textbf{Copyright \copyright \todo[size=\footnotesize]{Put HERE the CORRESPONDING part of the ORIGINAL template}}\vspace{\baselineskip}\linebreak
+        %
+        %\vspace{0.5cm}
+        {No part \todo[size=\footnotesize]{Put HERE the CORRESPONDING part of the ORIGINAL template}}
+        %\vspace{0.5cm}
+    \end{center}
+    \thispagestyle{fancy}
+\end{titlepage}
+%
+% toc
+%
+\tableofcontents
+%
+%
+%
+\ifnum \EXAM>0
+    % OSWP
+    \ifnum \EXAM=1
+        \input{oswp/oswp.tex}
+    \fi
+    % OSCP
+    \ifnum \EXAM=2
+        \input{oscp/oscp.tex}
+    \fi
+    % OSWE
+    \ifnum \EXAM=3
+        \input{oswe/oswe.tex}
+    \fi
+    % OSED
+    \ifnum \EXAM=4
+        \input{osed/osed.tex}
+    \fi
+    % OSEP
+    \ifnum \EXAM=5
+%        \input{osep/osep.tex}
+    \fi
+    % OSWA
+    \ifnum \EXAM=6
+%        \input{oswa/oswa.tex}
+    \fi
+    % OSDA
+    \ifnum \EXAM=7
+%        \input{osda/osda.tex}
+    \fi
+    % OSMR
+    \ifnum \EXAM=8
+%        \input{osmr/osmr.tex}
+    \fi
+    % OSEE
+    \ifnum \EXAM=42
+%        \input{osee/osee.tex}
+    \fi
+\else
+    \input{conf/default.tex}
+\fi
+
+
+
+
+
+%\input{oswp/oswp.tex}
+%\input{oscp/oscp.tex}
+%\input{osed/osed.tex}
+%
+%\input{osep/osep.tex}
+%\input{osee/osee.tex}
+%\input{archive/osce/osce.tex}
+
+
+
+%
+%
+%
+\end{document}
+
