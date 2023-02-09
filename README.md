@@ -4,8 +4,8 @@
 - Templates contains examples for common stuff, like listing, tables and figures
 - Sstructure is not completly the same as in the original templates, so feel free to adjust as needed
 
-### Important Notice
-According to Offensive Security copyright it has to be asked for permission to share parts etc. of the template or similar. After asking for permission to do so, the final result is, that I'm free to share my template as long s it doesn't contain any OffSec logos or copyright information.
+### IMPORTANT - README
+According to Offensive Security copyright, it has to be asked for permission to share parts etc. of the template or similar. After asking for permission to do so, the final result is, that I'm free to share my template as long s it doesn't contain any OffSec logos or copyright information.
 
 This means, at least in my mind, I can provide a template with placeholders (here: orange `todos`). I've tried to make it as easy as possible, so that everybody can just replace the files and placeholders as needed. Logos can be extracted by just using the most recent OffSec `Word/LibreOffice` templates and saving the images as `img/default/head.png` and `img/default/mid.png`
 
@@ -106,3 +106,5 @@ This means, at least in my mind, I can provide a template with placeholders (her
 - Others
 - Table of figures etc.
 - Title page pimp
+
+Remaining templates will follow in some days
