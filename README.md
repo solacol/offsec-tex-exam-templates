@@ -61,7 +61,7 @@ This means, at least in my mind, I can provide a template with placeholders (her
 
 ## Usage
 - Use a fully loaded `LaTeX` IDE (do not forget the `tex` distribution) with lots of fancy features and bullsh_t ;)
-- Change file name `ABCD-OS-XXXXX-Exam-Report.tex` (`ABCD` and `XXXXX`) to fit your exam and OSID,e.g. for `OSCP` change it to `OSCP-OS-12345-Exam-Report.tex` (make sure it fits the exam requironments)
+- Change file name `ABCD-OS-XXXXX-Exam-Report.tex` (`ABCD` and `XXXXX`) to fit your exam and OSID, e.g. for `OSCP` change it to `OSCP-OS-12345-Exam-Report.tex` (make sure it fits the exam requirements)
 - Define your personal data in `ABCD-OS-XXXXX-Exam-Report.tex`
 
 ```tex
@@ -73,7 +73,7 @@ This means, at least in my mind, I can provide a template with placeholders (her
 \newcommand{\NAME}{John Doe}
 ```
 
-- Set the number for your corresponding exam in `ABCD-OS-XXXXX-Exam-Report.tex`, e.g. `2` for `OSCP`
+- Set the number to fit your exam in `ABCD-OS-XXXXX-Exam-Report.tex`, e.g. `2` for `OSCP`
 
 ```tex
 % DEFINE EXAM DATA (choose number)
@@ -88,7 +88,7 @@ This means, at least in my mind, I can provide a template with placeholders (her
 ```
 
 - Use the `img` folder for screenshots etc. (just a recommendation)
-- Put your exam note aka report in the corresponding file for your exam, e.g. `OSWE` can be found here: `owse/oswe.tex`
+- Put your exam notes aka report in the corresponding file for your exam, e.g. `OSWE` can be found here: `owse/oswe.tex`
 - Compile and be happy
 
 # NOTE
