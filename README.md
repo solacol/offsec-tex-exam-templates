@@ -1,4 +1,4 @@
-# Offensive Security Tex Exam Templates 
+# Offensive Security TeX Exam Templates 
 - Just because `LaTeX` > `Word`/`LibreOffice` etc.
 - Templates are more or less dirty, so not perfect and definitively not clean `tex` ... shame on me.
 - Templates contains examples for common stuff, like listing, tables and figures
@@ -105,7 +105,6 @@ This means, at least in my mind, I can provide a template with placeholders (her
 - OSWA
 - OSDA
 - OSMR
-- Others
 - Table of figures etc.
 - Title page pimp
 
