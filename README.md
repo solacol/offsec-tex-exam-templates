@@ -90,7 +90,7 @@ This means, at least in my mind, I can provide a template with placeholders (her
 ```
 
 - Use the `img` folder for screenshots etc. (just a recommendation)
-- Put your exam notes aka report in the corresponding file for your exam, e.g. `OSWE` can be found here: `owse/oswe.tex`
+- Put your exam notes aka report in the corresponding file for your exam, e.g. `OSWE` can be found here: `exam/owse/oswe.tex`
 - Compile and be happy
 
 # NOTE
