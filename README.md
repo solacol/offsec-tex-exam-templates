@@ -1,7 +1,7 @@
 # Offensive Security TeX Exam Templates 
 - Just because `LaTeX` > `Word`/`LibreOffice` etc.
 - Templates are more or less dirty, so not perfect and definitively not clean `tex` ... shame on me.
-- Templates contains examples for common stuff, like listing, tables and figures
+- Templates contains examples for common stuff, like listings, tables and figures
 - Structure is not completely the same as in the original templates, so feel free to adjust as needed
 
 ### IMPORTANT - README
@@ -91,7 +91,8 @@ This means, at least in my mind, I can provide a template with placeholders (her
 - Use the `img` folder for screenshots etc. (just a recommendation)
 - Put your exam notes aka report in the corresponding file for your exam, e.g. `OSWE` can be found here: `exam/owse/oswe.tex`
 - Compile and be happy
-- **Do not foget:** Change file name `ABCD-OS-XXXXX-Exam-Report.tex` (`ABCD` and `XXXXX`) to fit your exam and OSID, e.g. for `OSCP` change it to `OSCP-OS-12345-Exam-Report.tex` (make sure it fits the exam requirements)
+- **Do not forget:**
+    - Change file name `ABCD-OS-XXXXX-Exam-Report.tex` (`ABCD` and `XXXXX`) to fit your exam and OSID, e.g. for `OSCP` change it to `OSCP-OS-12345-Exam-Report.tex` (make sure it fits the exam requirements)
 
 # NOTE
 - Use at your `own risk`!
