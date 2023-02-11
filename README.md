@@ -100,12 +100,9 @@ This means, at least in my mind, I can provide a template with placeholders (her
 # TODOs
 - OSEE
 - OSCE (archive)
-- OSED
-- OSEP
-- OSWA
-- OSDA
 - OSMR
 - Table of figures etc.
 - Title page pimp
+- Appendix
 
 Remaining templates will follow in some days
