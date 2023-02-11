@@ -105,52 +105,66 @@
 % Setting up according to choosen EXAM
 %
 \ifnum \EXAM>0
-   \newcommand{\DOCUMENTTITLE}{Offensive Security}
-
-    % OSWP
-    \ifnum \EXAM=1
-        \newcommand{\DOCUMENTSUBTITLE}{OSWP Exam Documentation}
-        \newcommand{\VERSION}{v2.0}
-    \fi
-    % OSCP
-    \ifnum \EXAM=2
-        \newcommand{\DOCUMENTSUBTITLE}{OSCP Penetration Test Report}
-        \newcommand{\VERSION}{v2.0}
-    \fi
-    % OSWE
-    \ifnum \EXAM=3
-        \newcommand{\DOCUMENTSUBTITLE}{OSWE Exam Documentation}
-        \newcommand{\VERSION}{v1.0}
-    \fi
-    % OSED
-    \ifnum \EXAM=4
-        \newcommand{\DOCUMENTSUBTITLE}{OSED Exam Documentation}
-        \newcommand{\VERSION}{v1.0}
-    \fi
-    % OSEP
-    \ifnum \EXAM=5
-        \newcommand{\DOCUMENTSUBTITLE}{OSEP Exam Documentation}
-        \newcommand{\VERSION}{v1.0}
-    \fi
-    % OSWA
-    \ifnum \EXAM=6
-        \newcommand{\DOCUMENTSUBTITLE}{OSWA Exam Documentation}
-        \newcommand{\VERSION}{v1.0}
-    \fi
-    % OSDA
-    \ifnum \EXAM=7
-        \newcommand{\DOCUMENTSUBTITLE}{OSDA Exam Report}
-        \newcommand{\VERSION}{v1.0}
-    \fi
-    % OSMR
-    \ifnum \EXAM=8
-        \newcommand{\DOCUMENTSUBTITLE}{...}
-        \newcommand{\VERSION}{...}
-    \fi
-    % OSEE
-    \ifnum \EXAM=42
-        \newcommand{\DOCUMENTSUBTITLE}{...}
-        \newcommand{\VERSION}{...}
+    \ifnum \EXAM<9
+        \newcommand{\DOCUMENTTITLE}{Offensive Security}
+        % OSWP
+        \ifnum \EXAM=1
+            \newcommand{\DOCUMENTSUBTITLE}{OSWP Exam Documentation}
+            \newcommand{\VERSION}{v2.0}
+        \fi
+        % OSCP
+        \ifnum \EXAM=2
+            \newcommand{\DOCUMENTSUBTITLE}{OSCP Penetration Test Report}
+            \newcommand{\VERSION}{v2.0}
+        \fi
+        % OSWE
+        \ifnum \EXAM=3
+            \newcommand{\DOCUMENTSUBTITLE}{OSWE Exam Documentation}
+            \newcommand{\VERSION}{v1.0}
+        \fi
+        % OSED
+        \ifnum \EXAM=4
+            \newcommand{\DOCUMENTSUBTITLE}{OSED Exam Documentation}
+            \newcommand{\VERSION}{v1.0}
+        \fi
+        % OSEP
+        \ifnum \EXAM=5
+            \newcommand{\DOCUMENTSUBTITLE}{OSEP Exam Documentation}
+            \newcommand{\VERSION}{v1.0}
+        \fi
+        % OSWA
+        \ifnum \EXAM=6
+            \newcommand{\DOCUMENTSUBTITLE}{OSWA Exam Documentation}
+            \newcommand{\VERSION}{v1.0}
+        \fi
+        % OSDA
+        \ifnum \EXAM=7
+            \newcommand{\DOCUMENTSUBTITLE}{OSDA Exam Report}
+            \newcommand{\VERSION}{v1.0}
+        \fi
+        % OSMR
+        \ifnum \EXAM=8
+            \newcommand{\DOCUMENTSUBTITLE}{OSMR Exam Documentation}
+            \newcommand{\VERSION}{v1.0}
+        \fi
+    \else
+        % OSEE
+        \ifnum \EXAM=42
+            \newcommand{\DOCUMENTTITLE}{Offensive Security}
+            \newcommand{\DOCUMENTSUBTITLE}{OSEE Exam Documentation}
+            \newcommand{\VERSION}{v1.0}
+        \else
+            % Archive/OSCE
+            \ifnum \EXAM=151020
+                \newcommand{\DOCUMENTTITLE}{Offensive Security}
+                \newcommand{\DOCUMENTSUBTITLE}{OSCE Exam Documentation}
+                \newcommand{\VERSION}{v1.0}
+            \else
+                \newcommand{\DOCUMENTTITLE}{SOMETHING STRANGE HAPPENED}
+                \newcommand{\DOCUMENTSUBTITLE}{SOMETHING STRANGE HAPPENED}
+                \newcommand{\VERSION}{SOMETHING STRANGE HAPPENED}
+            \fi
+        \fi
     \fi
 \else
     \newcommand{\DOCUMENTTITLE}{SOMETHING STRANGE HAPPENED}
