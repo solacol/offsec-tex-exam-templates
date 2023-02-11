@@ -2,7 +2,7 @@
 - Just because `LaTeX` > `Word`/`LibreOffice` etc.
 - Templates are more or less dirty, so not perfect and definitively not clean `tex` ... shame on me.
 - Templates contains examples for common stuff, like listing, tables and figures
-- Sstructure is not completly the same as in the original templates, so feel free to adjust as needed
+- Structure is not completely the same as in the original templates, so feel free to adjust as needed
 
 ### IMPORTANT - README
 According to Offensive Security copyright, it has to be asked for permission to share parts etc. of the template or similar. After asking for permission to do so, the final result is, that I'm free to share my template as long s it doesn't contain any OffSec logos or copyright information.
@@ -104,5 +104,7 @@ This means, at least in my mind, I can provide a template with placeholders (her
 - Table of figures etc.
 - Title page pimp
 - Appendix
+- Clean up
+- Make it more professional ^^ 
 
 Remaining templates will follow in some days
