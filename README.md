@@ -54,14 +54,14 @@ This means, at least in my mind, I can provide a template with placeholders (her
 - [Exam Template (Word)](https://offensive-security.com/awe/AWE-Exam-Report.docx)
 
 ## Archive
-- Not needed anymore, but for sake of completeness and nostalgia here.
+- Not needed anymore, but here for sake of completeness and nostalgia.
 
 ### OSCE (retired on 15/10/2020)
 - [Course Info](https://www.offensive-security.com/ctp-osce/)
 
 ## Usage
 - Use a fully loaded `LaTeX` IDE (do not forget the `tex` distribution) with lots of fancy features and bullsh_t ;)
-- Reaplce placeholders (here: orange `todos`) with the corresponding parts of the original template
+- Replace placeholders (here: orange `todos`) with the corresponding parts of the original template
 - Replace images `head.png` and `mid.png` with the corresponding ones of the original template
 - Define your personal data in `ABCD-OS-XXXXX-Exam-Report.tex`
 
@@ -89,7 +89,7 @@ This means, at least in my mind, I can provide a template with placeholders (her
 ```
 
 - Use the `img` folder for screenshots etc. (just a recommendation)
-- Put your exam notes aka report in the corresponding file for your exam, e.g. `OSWE` can be found here: `exam/owse/oswe.tex`
+- Put your exam notes aka report in the corresponding file for your exam, e.g. `OSWE` can be found here: `exam/oswe/oswe.tex`
 - Compile and be happy
 - **Do not forget:**
     - Change file name `ABCD-OS-XXXXX-Exam-Report.tex` (`ABCD` and `XXXXX`) to fit your exam and OSID, e.g. for `OSCP` change it to `OSCP-OS-12345-Exam-Report.tex` (make sure it fits the exam requirements)
