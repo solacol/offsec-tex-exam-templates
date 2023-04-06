@@ -82,12 +82,21 @@
         {No part \todo[size=\footnotesize]{Put HERE the CORRESPONDING part of the ORIGINAL template}}
         %\vspace{0.5cm}
     \end{center}
+    \fancyfoot[L]{}
+    \fancyfoot[C]{\OSID}
+    \fancyfoot[R]{}
     \thispagestyle{fancy}
 \end{titlepage}
 %
 % toc
 %
 \tableofcontents
+%
+% tof, tot, tol
+%
+\listoffigures
+\listoftables
+\lstlistoflistings
 %
 %
 %
@@ -141,6 +150,11 @@
 \else
     \input{conf/default.tex}
 \fi
+%
+%
+%
+\selectlanguage{english}
+\printbibliography[heading=bibintoc,title={Bibliography}]
 %
 %
 %

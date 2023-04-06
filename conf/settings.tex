@@ -6,12 +6,11 @@
 % packages and settings
 %
 \usepackage[right=4.0cm,left=3.3cm, bottom=3.9cm, top=4.1cm, footskip=2.1cm, headsep=3.0cm]{geometry}
-\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{palatino}
 \usepackage{microtype}
 \usepackage[english]{babel}
-\usepackage{natbib}
 \usepackage{url}
 \usepackage{listings}
 \usepackage{lastpage}
@@ -26,7 +25,7 @@
 \usepackage{multirow}
 \usepackage{color}
 \usepackage{lstautogobble}
-\usepackage{zi4}  
+\usepackage{zi4}
 \usepackage[rigidchapters]{titlesec}
 \usepackage{blindtext}
 \usepackage[labelfont=bf,format=hang,font=footnotesize,justification=raggedright,singlelinecheck=false]{caption}
@@ -34,10 +33,29 @@
 \usepackage{todonotes}
 \usepackage{tabularx}
 \usepackage{etoolbox}
+\usepackage{quoting}
+\usepackage{csquotes}
 %
 \usepackage{tikz}
 \usetikzlibrary{plotmarks}
 \usetikzlibrary{positioning,shapes,shadows,arrows}
+%
+%\usepackage{natbib}
+\usepackage[%
+    backend=bibtex,
+    %style=authoryear,
+    style=numeric-comp,
+    sorting=none,
+    sortcites=true,
+    block=none,
+    indexing=false,
+    citereset=none,
+    isbn=true,
+    url=true,
+    doi=true,
+    natbib=true
+]{biblatex}
+\addbibresource{conf/bib.bib}
 %
 \usepackage{hyperref}
 \hypersetup{

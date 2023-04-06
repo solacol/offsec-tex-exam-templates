@@ -90,6 +90,7 @@ This means, at least in my mind, I can provide a template with placeholders (her
 
 - Use the `img` folder for screenshots etc. (just a recommendation)
 - Put your exam notes aka report in the corresponding file for your exam, e.g. `OSWE` can be found here: `exam/oswe/oswe.tex`
+- Comment stuff like list of tables or bibliography in `ABCD-OS-XXXXX-Exam-Report.tex` if not needed
 - Compile and be happy
 - **Do not forget:**
     - Change file name `ABCD-OS-XXXXX-Exam-Report.tex` (`ABCD` and `XXXXX`) to fit your exam and OSID, e.g. for `OSCP` change it to `OSCP-OS-12345-Exam-Report.tex` (make sure it fits the exam requirements)
@@ -99,11 +100,18 @@ This means, at least in my mind, I can provide a template with placeholders (her
 - `No guarantees` if reports written by usage of the templates in this repo will fail to fulfill any requirements!
 - If you think something should be adjusted or new templates have to be merged, just open an issue
 
+# Changelog
+- OSEE template update
+- List of tables
+- List of figures
+- List of listings
+- Bibliography
+- Fixed page numbering
+
 # TODOs
-- Table of figures etc.
 - Title page pimp
 - Appendix
 - Clean up packages
 - Make it more professional ^^ 
 - Some more error checks
-- OSEE template needs to be merged with new 2023 version
+- Adjust template to fit new PWK'23
