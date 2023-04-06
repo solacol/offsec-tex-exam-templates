@@ -97,6 +97,7 @@ This means, at least in my mind, I can provide a template with placeholders (her
 # NOTE
 - Use at your `own risk`!
 - `No guarantees` if reports written by usage of the templates in this repo will fail to fulfill any requirements!
+- If you think something should be adjusted or new templates have to be merged, just open an issue
 
 # TODOs
 - Table of figures etc.
@@ -105,3 +106,4 @@ This means, at least in my mind, I can provide a template with placeholders (her
 - Clean up packages
 - Make it more professional ^^ 
 - Some more error checks
+- OSEE template needs to be merged with new 2023 version
