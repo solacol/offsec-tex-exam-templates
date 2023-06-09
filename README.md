@@ -115,3 +115,4 @@ This means, at least in my mind, I can provide a template with placeholders (her
 - Make it more professional ^^ 
 - Some more error checks
 - Adjust template to fit new PWK'23
+- Scaling for tables and listings
