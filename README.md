@@ -107,6 +107,7 @@ This means, at least in my mind, I can provide a template with placeholders (her
 - List of listings
 - Bibliography
 - Fixed page numbering
+- Support for powershell listings
 
 # TODOs
 - Title page pimp
