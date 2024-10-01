@@ -115,5 +115,7 @@ This means, at least in my mind, I can provide a template with placeholders (her
 - Clean up packages
 - Make it more professional ^^ 
 - Some more error checks
-- Adjust template to fit new PWK'23
+- Add OSTH exam
+- Adjust OSCP to fit OSCP+ exam
 - Scaling for tables and listings
+
