@@ -116,6 +116,7 @@ This means, at least in my mind, I can provide a template with placeholders (her
 - Make it more professional ^^ 
 - Some more error checks
 - Add OSTH exam
+- Add OSIR exam
 - Adjust OSCP to fit OSCP+ exam
 - Scaling for tables and listings
 
